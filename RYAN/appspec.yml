@@ -1,5 +1,5 @@
 version: 0.0
 os: linux
 files:
-  - source: index.html, script.js, style.css
+  - source: index.html; script.js; style.css
     destination: /var/www/html/
