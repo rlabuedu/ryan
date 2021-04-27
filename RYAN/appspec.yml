@@ -2,8 +2,3 @@ version: 0.0
 os: linux
 files:
   - source: index.html
-    destination: /var/www/html/
-  - source: script.js 
-    destination: /var/www/html/
-  - source: style.css
-    destination: /var/www/html/
