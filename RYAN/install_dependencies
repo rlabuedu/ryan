@@ -1,2 +1,3 @@
 #!/bin/bash
+su - ec2-user -c 'cd /usr/local/nginx/html/node && npm install'
 yum install -y httpd
