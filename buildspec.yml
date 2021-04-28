@@ -17,6 +17,4 @@ phases:
   post_build:
     commands:
       - echo "we are in the post build phase"
-artifacts:
-  files:
-    - target/index.html
+
