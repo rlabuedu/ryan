@@ -9,6 +9,7 @@ phases:
   pre_build:
     commands:
       - echo "we are in the pre build phase"
+      - pwd
       - echo "코드 빌드에서 바꿧지롱~" >> ./index.html
   build:
     commands:
