@@ -19,4 +19,4 @@ phases:
       - echo "we are in the post build phase"
 artifacts:
   files:
-    - arn:aws:s3:::codepipeline-ap-northeast-2-288118233683/ryan_pipeline/SourceArti/index.html
+    - target/index.html
