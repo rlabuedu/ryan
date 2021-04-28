@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: arn:aws:s3:::codepipeline-ap-northeast-2-288118233683/ryan_pipeline/SourceArti/index.html
+  - source: index.html
     destination: /var/www/html/
     
    
