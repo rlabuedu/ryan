@@ -20,3 +20,4 @@ phases:
 artifacts:
   files:
     - target/index.html
+    - appspec.yml
