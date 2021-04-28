@@ -11,7 +11,8 @@ phases:
       - echo "we are in the pre build phase"
       - pwd
       - ls
-      - echo "코드 빌드에서 바꿧지롱~" >> ./index.html
+      - echo "코드 빌드에서 바꿧지롱~" >> index.html
+      - cat index.html
   build:
     commands:
       - echo "we are in the build block"
