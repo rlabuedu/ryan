@@ -1,9 +1,9 @@
 version: 0.0
 os: linux
-hooks:
-  BeforeInstall:
-  - location: insatll.sh
-    timeout: 300
-    runas: root
-    
-   
+files:
+  - source: index.html
+    destination: /var/www/html/
+  - source: script.js
+    destination: /var/www/html/
+  - source: style.css
+    destination: /var/www/html/
