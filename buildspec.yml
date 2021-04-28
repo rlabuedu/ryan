@@ -21,3 +21,4 @@ artifacts:
   files:
     - target/index.html
     - appspec.yml
+  discard-paths: yes
