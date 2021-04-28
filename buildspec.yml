@@ -19,4 +19,4 @@ phases:
       - echo "we are in the post build phase"
 artifacts:
   files:
-    - target/messageUtil-1.0.jar
+    - target/index.html
